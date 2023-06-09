@@ -19,6 +19,13 @@ public class LineComparison
     public void CalculateLength()
     {
         double length = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
-        Console.WriteLine("Length : " + length);
+        Console.WriteLine("Length :- " + length);
+        Console.WriteLine("\n");
+    }
+    public double Calculate()
+    {
+        double length = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
+        Console.WriteLine("Length of lines: " + length);
+        return length;
     }
 }
